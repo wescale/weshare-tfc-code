@@ -9,3 +9,5 @@ Exercice:
 - se connecter au service Terraform Cloud
 - exécuter un apply dans Terraform Cloud
 - inspecter ce qu'il s'est passé dans Terraform Cloud
+
+Bonus: brancher son workspace en mode VCS-driven
