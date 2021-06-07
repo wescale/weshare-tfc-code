@@ -21,3 +21,14 @@ resource "random_integer" "specie" {
 
   keepers = local.choices
 }
+
+terraform {
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "wescale"
+
+    workspaces {
+      name = "dtchapmi-tfc-code"
+    }
+  }
+}
